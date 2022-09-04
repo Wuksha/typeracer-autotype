@@ -2,6 +2,7 @@
 
 Start race, paste script in console, type
 
+```
 var element = document.getElementsByClassName('inputPanel')[0]
 var textElements = element.getElementsByTagName('span')
 var text = ''
@@ -16,3 +17,4 @@ function onKeyDown(e) {
     counter++
 }
 input.addEventListener('keydown', onKeyDown);
+```
